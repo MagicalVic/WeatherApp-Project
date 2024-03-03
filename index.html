@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>SheCodesPlus - Homework 👩🏽‍💻</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="core">
+      <header>
+        <form action="/submit" id="searchForm">
+          <input
+            type="search"
+            placeholder="Enter a city..."
+            required
+            class="form-input"
+          />
+          <input type="submit" value="Search" class="form-button" />
+        </form>
+      </header>
+      <main>
+        <div class="weather-baby">
+          <div class="today">
+            <h1>Zürich</h1>
+            <p>
+              <span id="day-and-time">Monday 10:15,</span>
+              <span id="weather-condition">Cloudy</span> <br />
+              Humidity: <strong id="humidity">90%</strong>, Wind:
+              <strong id="wind">10km/h</strong>
+            </p>
+          </div>
+          <div class="today-add">
+            <div id="icon">
+              <img
+                src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/few-clouds-day.png"
+                class="weather-icon"
+              />
+            </div>
+            <span class="temperature">10</span>
+            <span class="celcius">°C</span>
+          </div>
+        </div>
+      </main>
+      <footer>
+        <p>
+          This project was coded by
+          <a href="https://github.com/MagicalVic" target="_blank"
+            >Victoria Kladny</a
+          >
+          , is open-sourced on
+          <a
+            href="https://github.com/MagicalVic/SheCodesPlus-Homework"
+            target="_blank"
+          >
+            GitHub</a
+          >
+          and hosted on
+          <a
+            href="https://fabulous-hummingbird-8ae73a.netlify.app/"
+            target="_blank"
+            >Netlify</a
+          >
+        </p>
+      </footer>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

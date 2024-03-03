@@ -1,0 +1,85 @@
+body {
+  font-family: "Kdam Thmor Pro", sans-serif;
+  background: #2d5caa;
+}
+.core {
+  background: radial-gradient(
+    592px at 48.2% 50%,
+    rgba(255, 255, 249, 0.6) 0%,
+    rgb(160, 199, 254) 74.6%
+  );
+  display: block;
+  border-radius: 10px;
+  padding: 40px;
+  padding-bottom: 20px;
+  width: 500px;
+  margin: 50px auto;
+  box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
+}
+form {
+  text-align: center;
+}
+.form-button {
+  font-size: 16px;
+  border-radius: 8px;
+  background: radial-gradient(
+    circle at 48.7% 44.3%,
+    rgb(30, 144, 231) 0%,
+    rgb(56, 113, 209) 22.9%,
+    rgb(38, 76, 140) 76.7%,
+    rgb(31, 63, 116) 100.2%
+  );
+
+  color: white;
+  border: none;
+  padding: 20px;
+  margin-left: 5px;
+}
+.form-input {
+  background: #eff7ff;
+  border: #eff7ff 2px solid;
+  font-size: 16px;
+  border-radius: 8px;
+  padding: 20px;
+  width: 330px;
+}
+.weather-baby {
+  display: flex;
+  justify-content: space-between;
+}
+h1 {
+  font-size: 45px;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+p {
+  color: rgb(0, 0, 0, 0.6);
+}
+strong {
+  color: rgb(31, 63, 116);
+}
+.today-add {
+  display: flex;
+  font-size: 70px;
+  margin-top: 40px;
+}
+.weather-icon {
+  height: 80px;
+  width: 80px;
+}
+.celcius {
+  font-size: 18px;
+  padding-top: 15px;
+  color: rgb(31, 63, 116);
+}
+
+a {
+  color: rgb(198, 107, 178);
+}
+footer {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  font-size: smaller;
+  border-top: 1px solid #21437c;
+  padding-top: 10px;
+}
